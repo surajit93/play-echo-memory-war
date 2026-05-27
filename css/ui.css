@@ -1,0 +1,7 @@
+.hud { position: fixed; inset: 0; pointer-events: none; color: #dbe9ff; }
+#state-label, #phase-timer, #confidence { position: fixed; left: 16px; background: #0b1220c0; padding: 6px 10px; border-radius: 6px; }
+#state-label { top: 12px; }
+#phase-timer { top: 44px; }
+#confidence { top: 76px; }
+.panel { position: fixed; right: 16px; top: 12px; width: 340px; background: #0d1424cc; border: 1px solid #2a3550; padding: 10px; font-size: 12px; }
+.hidden { display: none; }
