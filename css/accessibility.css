@@ -1,0 +1,3 @@
+.reduced-motion * { transition: none !important; animation: none !important; }
+.high-contrast { filter: contrast(1.25); }
+.colorblind-safe { filter: saturate(0.85); }

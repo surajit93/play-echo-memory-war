@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECHO — Cognitive Deception Warfare Platform</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/ui.css" />
+  <link rel="stylesheet" href="css/chamber.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="game-canvas" width="1280" height="720" aria-label="ECHO gameplay canvas"></canvas>
+    <div id="hud" class="hud">
+      <div id="state-label"></div>
+      <div id="phase-timer"></div>
+      <div id="confidence"></div>
+      <div id="suspicion-panel" class="panel hidden"></div>
+      <div id="debug-panel" class="panel"></div>
+    </div>
+  </div>
+  <script type="module" src="js/core/main.js"></script>
+</body>
+</html>
